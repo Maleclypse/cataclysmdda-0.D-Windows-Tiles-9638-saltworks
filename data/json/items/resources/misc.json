@@ -1,0 +1,36 @@
+[
+  {
+    "id": "incendiary",
+    "type": "AMMO",
+    "category": "chems",
+    "name": "incendiary",
+    "name_plural": "incendiaries",
+    "description": "Material from an incendiary round, useful in constructing incendiary ammunition.",
+    "weight": "2 g",
+    "volume": "500 ml",
+    "price": 10000,
+    "container": "bag_plastic",
+    "material": [ "powder" ],
+    "symbol": "=",
+    "color": "dark_gray",
+    "count": 200,
+    "ammo_type": "components",
+    "effects": [ "COOKOFF" ]
+  },
+  {
+    "id": "mattress",
+    "type": "GENERIC",
+    "category": "spare_parts",
+    "name": "mattress",
+    "name_plural": "mattresses",
+    "description": "This is a single, or twin, sized mattress.",
+    "weight": "20000 g",
+    "volume": "300000 ml",
+    "price": 1000,
+    "material": [ "cotton", "steel" ],
+    "symbol": "0",
+    "color": "white",
+    "flags": [ "NONCONDUCTIVE" ],
+    "use_action": { "type": "deploy_furn", "furn_type": "f_floor_mattress" }
+  }
+]

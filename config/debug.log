@@ -1,0 +1,80 @@
+
+
+-----------------------------------------
+17:49:05.909 : Starting log.
+17:49:05.909 INFO : Cataclysm DDA version 0.D-7699-g5a03b22
+17:49:05.990 INFO : Number of render drivers on your system: 4
+17:49:05.990 INFO : Render driver: 0/direct3d
+17:49:05.991 INFO : Render driver: 1/direct3d11
+17:49:05.991 INFO : Render driver: 2/opengl
+17:49:05.991 INFO : Render driver: 3/software
+17:49:06.035 INFO : Language is set to: 'en'
+17:49:09.723 INFO : SDL version used during compile is 2.0.5
+17:49:09.723 INFO : SDL version used during linking and in runtime is 2.0.5
+17:49:10.137 INFO : Active renderer: 0/direct3d
+17:49:10.259 ERROR SDL : (error message will follow backtrace)
+	(@0x53f6ac[cataclysm-tiles.exe+0x13f6ac]), 
+	(@0x53ffa7[cataclysm-tiles.exe+0x13ffa7]), 
+	(@0xb00d9c[cataclysm-tiles.exe+0x700d9c]), 
+	(@0xb0c8c5[cataclysm-tiles.exe+0x70c8c5]), 
+	(IMG_LoadWEBP_RW+0x5b2447@0x12f63d7[cataclysm-tiles.exe+0xef63d7]), 
+	(@0x4013e2[cataclysm-tiles.exe+0x13e2]), 
+	(BaseThreadInitThunk+0x12@0x76a0343d[kernel32.dll+0x1343d]), 
+	(RtlInitializeExceptionChain+0x63@0x77159802[ntdll.dll+0x39802]), 
+	(RtlInitializeExceptionChain+0x36@0x771597d5[ntdll.dll+0x397d5]), 
+Backtrace emission took 0 seconds.
+src/sdlsound.cpp:121: Failed to open audio mixer, sound won't work: DirectSoundCreate8: Unknown DirectSound error: 0x88890010
+17:49:10.259 INFO : USE_COLOR_MODULATED_TEXTURES is set to 0
+17:49:11.454 WARNING : opendir [./mods/] failed with "No such file or directory".
+17:49:37.293 ERROR MAP_GEN : sym is defined as number instead of string for overmap_terrain: robot_dispatch_first (robot dispatch center)
+17:49:37.293 ERROR MAP_GEN : sym is defined as number instead of string for overmap_terrain: robot_dispatch_second (robot dispatch center)
+17:49:40.475 WARNING : opendir [./save/Manter/mods] failed with "No such file or directory".
+17:50:17.160 ERROR : (error message will follow backtrace)
+	(@0x53f6ac[cataclysm-tiles.exe+0x13f6ac]), 
+	(@0x53ffa7[cataclysm-tiles.exe+0x13ffa7]), 
+	(@0x540f38[cataclysm-tiles.exe+0x140f38]), 
+	(@0xaa2fc1[cataclysm-tiles.exe+0x6a2fc1]), 
+	(IMG_LoadWEBP_RW+0x3946b3@0x10d8643[cataclysm-tiles.exe+0xcd8643]), 
+	(@0x65d9b5[cataclysm-tiles.exe+0x25d9b5]), 
+	(@0x5ddd62[cataclysm-tiles.exe+0x1ddd62]), 
+	(@0x6028bd[cataclysm-tiles.exe+0x2028bd]), 
+	(@0x796d1c[cataclysm-tiles.exe+0x396d1c]), 
+	(@0x7988fd[cataclysm-tiles.exe+0x3988fd]), 
+	(IMG_LoadWEBP_RW+0x5b2c15@0x12f6ba5[cataclysm-tiles.exe+0xef6ba5]), 
+	(@0x4013e2[cataclysm-tiles.exe+0x13e2]), 
+	(BaseThreadInitThunk+0x12@0x76a0343d[kernel32.dll+0x1343d]), 
+	(RtlInitializeExceptionChain+0x63@0x77159802[ntdll.dll+0x39802]), 
+	(RtlInitializeExceptionChain+0x36@0x771597d5[ntdll.dll+0x397d5]), 
+Backtrace emission took 0 seconds.
+src/recipe_groups.cpp:61 [void {anonymous}::recipe_group_data::check() const] faction_base_saltworks_0 is not a valid recipe
+17:50:51.843 INFO : Loaded tileset: MSX++DEAD_PEOPLE
+17:50:54.382 ERROR : src/faction.cpp:415 [faction* faction_manager::get(const faction_id&)] Requested non-existing faction 'solo_Darius Currie'
+17:51:09.599 ERROR : src/savegame_json.cpp:2162 [void item::io(Archive&) [with Archive = io::JsonObjectInputArchive]] Item battery_ups was loaded with charges, but can not have any!
+17:51:14.231 ERROR : src/recipe_dictionary.cpp:59 [const T& string_id<T>::obj() const [with T = recipe]] invalid recipe id "afs_rolling_pin"
+17:51:15.280 ERROR : src/recipe_dictionary.cpp:59 [const T& string_id<T>::obj() const [with T = recipe]] invalid recipe id "afs_welding_mask_makeshift"
+17:51:16.349 ERROR : src/recipe_dictionary.cpp:59 [const T& string_id<T>::obj() const [with T = recipe]] invalid recipe id "afs_cake"
+17:51:17.160 ERROR : (error message will follow backtrace)
+	(@0x53f6ac[cataclysm-tiles.exe+0x13f6ac]), 
+	(@0x53ffa7[cataclysm-tiles.exe+0x13ffa7]), 
+	(@0x540f38[cataclysm-tiles.exe+0x140f38]), 
+	(IMG_LoadWEBP_RW+0x11138a@0xe5531a[cataclysm-tiles.exe+0xa5531a]), 
+	(@0xa9fc8a[cataclysm-tiles.exe+0x69fc8a]), 
+	(@0xad7caf[cataclysm-tiles.exe+0x6d7caf]), 
+	(@0xaefe0e[cataclysm-tiles.exe+0x6efe0e]), 
+	(@0xaf1222[cataclysm-tiles.exe+0x6f1222]), 
+	(@0xad2b20[cataclysm-tiles.exe+0x6d2b20]), 
+	(IMG_LoadWEBP_RW+0x40ed15@0x1152ca5[cataclysm-tiles.exe+0xd52ca5]), 
+	(@0x4c0ff3[cataclysm-tiles.exe+0xc0ff3]), 
+	(@0x5f1b5b[cataclysm-tiles.exe+0x1f1b5b]), 
+	(@0x796d4d[cataclysm-tiles.exe+0x396d4d]), 
+	(@0x7988fd[cataclysm-tiles.exe+0x3988fd]), 
+	(IMG_LoadWEBP_RW+0x5b2c15@0x12f6ba5[cataclysm-tiles.exe+0xef6ba5]), 
+	(@0x4013e2[cataclysm-tiles.exe+0x13e2]), 
+	(BaseThreadInitThunk+0x12@0x76a0343d[kernel32.dll+0x1343d]), 
+	(RtlInitializeExceptionChain+0x63@0x77159802[ntdll.dll+0x39802]), 
+	(RtlInitializeExceptionChain+0x36@0x771597d5[ntdll.dll+0x397d5]), 
+Backtrace emission took 0 seconds.
+src/recipe_dictionary.cpp:59 [const T& string_id<T>::obj() const [with T = recipe]] invalid recipe id "afs_fried_donut_holes"
+17:58:50.615 : Log shutdown.
+-----------------------------------------
+
